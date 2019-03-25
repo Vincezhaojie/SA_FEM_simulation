@@ -6,6 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.utils import shuffle
 from datetime import datetime
 import pickle
 
@@ -45,10 +46,9 @@ logdir = "{}/W_Form-{}".format(root_logdir, now)
 n_inputs = 9
 
 #read data
-df1 = pd.read_excel('W_Form_simulationDaten_1553283065168_withoutOutlier.xlsx')
-df2 = pd.read_excel('W_Form_simulationDaten_1553298150076.xlsx')
-
-df = pd.concat([df1, df2])
+df1 = pd.read_excel('W_Form_simulationDaten_20190325_maxDisp.xlsx')
+df = pd.concat([df1])
+df = shuffle(df)
 
 print(len(df))
 

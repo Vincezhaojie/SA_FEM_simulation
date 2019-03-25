@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cb4153-c196-47e3-b241-03bf3e166a09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_NN_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_NN_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_simulationDaten_1553283065168_withoutOutlier.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_simulationDaten_1553298150076.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_simulationDaten_1553301542146_asTest.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="504">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#486#1825#0" />
@@ -29,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="63">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -53,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L_Form_analyse_keras_NN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="399">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -85,8 +93,8 @@
         <option value="$PROJECT_DIR$/L_Form_analyse_keras_NN.py" />
         <option value="$PROJECT_DIR$/Balken_analyse_keras_NN.py" />
         <option value="$PROJECT_DIR$/Balken_analyse_keras_NN_test.py" />
-        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
         <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" />
+        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
       </list>
     </option>
   </component>
@@ -102,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,6 +121,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +269,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -329,7 +337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L_Form_analyse_keras_NN_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="399">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -339,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="63">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -349,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="504">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#486#1825#0" />

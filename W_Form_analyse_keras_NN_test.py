@@ -11,7 +11,7 @@ import pickle
 
 NN_model = load_model('W_Form_NN_model.h5')
 
-df_test = pd.read_excel('W_Form_simulationDaten_1553301542146_asTest.xlsx')
+df_test = pd.read_excel('W_Form_simulationDaten_1553301542146_maxDisp_asTest.xlsx')
 X_test = df_test.drop(columns=['maxDisp(mm)'])
 y_test = df_test['maxDisp(mm)']
 
