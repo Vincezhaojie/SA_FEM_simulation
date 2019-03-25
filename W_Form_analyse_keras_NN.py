@@ -73,6 +73,8 @@ NN_model.add(Dense(512, kernel_initializer='normal', activation='relu'))
 NN_model.add(Dense(512, kernel_initializer='normal', activation='relu'))
 
 
+
+
 #output layer
 NN_model.add(Dense(1, kernel_initializer='normal', activation='linear'))
 
