@@ -48,6 +48,9 @@ n_inputs = 9
 #read data
 df1 = pd.read_excel('W_Form_simulationDaten_20190325_maxDisp.xlsx')
 df = pd.concat([df1])
+
+df = df[df['maxDisp(mm)'] <= 100]
+
 df = shuffle(df)
 
 print(len(df))
@@ -71,7 +74,9 @@ NN_model.add(Dense(n_inputs, kernel_initializer='normal', input_shape=X_train_no
 NN_model.add(Dense(512, kernel_initializer='normal', activation='relu'))
 NN_model.add(Dense(512, kernel_initializer='normal', activation='relu'))
 NN_model.add(Dense(512, kernel_initializer='normal', activation='relu'))
-
+NN_model.add(Dropout(0.2))
+NN_model.add(Dense(512, kernel_initializer='normal', activation='relu'))
+NN_model.add(Dropout(0.4))
 
 
 
@@ -82,7 +87,7 @@ tensorboard = TensorBoard(log_dir=logdir)
 
 NN_model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['mean_absolute_error'])
 
-NN_model.fit(X_train_nor, y_train, epochs=800, validation_split=0.2, callbacks=[tensorboard])
+NN_model.fit(X_train_nor, y_train, epochs=10, validation_split=0.2, callbacks=[tensorboard])
 
 NN_model.save('W_Form_NN_model.h5')
 
@@ -91,7 +96,6 @@ output_names = [out.op.name for out in NN_model.outputs]
 print(output_names)
 # tf.train.write_graph(frozen_graph, './', 'W_Form_NN_model.pbtxt', as_text=True)
 tf.train.write_graph(frozen_graph, './', 'W_Form_NN_model.pb', as_text=False)
-
 
 
 
