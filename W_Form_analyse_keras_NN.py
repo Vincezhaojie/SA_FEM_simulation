@@ -9,6 +9,8 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.utils import shuffle
 from datetime import datetime
 import pickle
+import matplotlib.pyplot as plt
+from plot_learning_curve import plot_learning_curve
 
 #help function
 def freeze_session(session, keep_var_names=None, output_names=None, clear_devices=True):
@@ -87,7 +89,7 @@ tensorboard = TensorBoard(log_dir=logdir)
 
 NN_model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['mean_absolute_error'])
 
-NN_model.fit(X_train_nor, y_train, epochs=10, validation_split=0.2, callbacks=[tensorboard])
+NN_model.fit(X_train_nor, y_train, epochs=400, validation_split=0.2, callbacks=[tensorboard])
 
 NN_model.save('W_Form_NN_model.h5')
 
@@ -96,6 +98,20 @@ output_names = [out.op.name for out in NN_model.outputs]
 print(output_names)
 # tf.train.write_graph(frozen_graph, './', 'W_Form_NN_model.pbtxt', as_text=True)
 tf.train.write_graph(frozen_graph, './', 'W_Form_NN_model.pb', as_text=False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
