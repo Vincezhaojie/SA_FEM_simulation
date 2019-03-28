@@ -3,10 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="04cb4153-c196-47e3-b241-03bf3e166a09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_NN_model.pbtxt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190322202108/events.out.tfevents.1553286069.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190322202917/events.out.tfevents.1553286557.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323075409/events.out.tfevents.1553327650.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323123633/events.out.tfevents.1553344593.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323123934/events.out.tfevents.1553344775.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323124501/events.out.tfevents.1553345102.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323124856/events.out.tfevents.1553345337.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323210504/events.out.tfevents.1553375105.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323210725/events.out.tfevents.1553375245.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190324105230/events.out.tfevents.1553424752.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190324105424/events.out.tfevents.1553424865.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190324105514/events.out.tfevents.1553424915.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190325064104/events.out.tfevents.1553496065.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot_learning_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_learning_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312112210/events.out.tfevents.1552389731.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312112740/events.out.tfevents.1552390061.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312113003/events.out.tfevents.1552390204.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312145138/events.out.tfevents.1552402299.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312145831/events.out.tfevents.1552402712.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312150259/events.out.tfevents.1552402980.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312150804/events.out.tfevents.1552403284.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312170456/events.out.tfevents.1552410297.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314120553/events.out.tfevents.1552565154.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314122614/events.out.tfevents.1552566375.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314123553/events.out.tfevents.1552566954.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314124659/events.out.tfevents.1552567620.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314130223/events.out.tfevents.1552568544.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314131434/events.out.tfevents.1552569275.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314133239/events.out.tfevents.1552570360.DESKTOP-T99DRN4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190321195122/events.out.tfevents.1553197883.DESKTOP-77H7LR4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +48,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+            <state relative-caret-position="336">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#520#1859#0" />
+                <element signature="e#604#1943#0" />
               </folding>
             </state>
           </provider>
@@ -32,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_learning_curve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -41,14 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -100,8 +129,8 @@
         <option value="$PROJECT_DIR$/L_Form_analyse_keras_NN.py" />
         <option value="$PROJECT_DIR$/Balken_analyse_keras_NN.py" />
         <option value="$PROJECT_DIR$/Balken_analyse_keras_NN_test.py" />
-        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
         <option value="D:/Python3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py" />
+        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
         <option value="$PROJECT_DIR$/plot_learning_curve.py" />
         <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" />
       </list>
@@ -280,7 +309,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -364,6 +393,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plot_learning_curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/L_Form_analyse_NN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -384,34 +423,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_learning_curve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#520#1859#0" />
+            <element signature="e#604#1943#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>

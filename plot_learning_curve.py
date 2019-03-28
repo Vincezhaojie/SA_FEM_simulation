@@ -17,7 +17,7 @@ def plot_learning_curve(model, X, y, hm_splice):
         y_tra_copy = y_tra.copy()
         X_tra_copy = X_tra_copy[0: int(len(X) * percentage[i])]
         y_tra_copy = y_tra_copy[0: int(len(X) * percentage[i])]
-        model.fit(X_tra_copy, y_tra_copy, epochs=400)
+        model.fit(X_tra_copy, y_tra_copy, epochs=200)
 
         #cacalate MAE of validation daten
         y_pred = model.predict(X_val)

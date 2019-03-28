@@ -48,8 +48,10 @@ logdir = "{}/W_Form-{}".format(root_logdir, now)
 n_inputs = 9
 
 #read data
-df1 = pd.read_excel('W_Form_simulationDaten_20190325_maxDisp.xlsx')
-df = pd.concat([df1])
+df1 = pd.read_excel('W_Form_simulationDaten_1553758068644_clean.xlsx')
+df2 = pd.read_excel('W_Form_simulationDaten_1553765907570_clean.xlsx')
+df3 = pd.read_excel('W_Form_simulationDaten_1553765909540_clean.xlsx')
+df = pd.concat([df1, df2, df3])
 
 df = df[df['maxDisp(mm)'] <= 100]
 
@@ -57,7 +59,7 @@ df = shuffle(df)
 
 print(len(df))
 
-X_train = df.drop(columns=['maxDisp(mm)'])
+X_train = df.drop(columns=['maxDisp(mm)', 'maxStress(MPa)'])
 y_train = df['maxDisp(mm)']
 
 scaler = MinMaxScaler()  # or MaxAbsScaler(), MinMaxScaler()
@@ -89,7 +91,7 @@ tensorboard = TensorBoard(log_dir=logdir)
 
 NN_model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['mean_absolute_error'])
 
-NN_model.fit(X_train_nor, y_train, epochs=400, validation_split=0.2, callbacks=[tensorboard])
+NN_model.fit(X_train_nor, y_train, epochs=800, validation_split=0.2, callbacks=[tensorboard])
 
 NN_model.save('W_Form_NN_model.h5')
 
@@ -99,7 +101,7 @@ print(output_names)
 # tf.train.write_graph(frozen_graph, './', 'W_Form_NN_model.pbtxt', as_text=True)
 tf.train.write_graph(frozen_graph, './', 'W_Form_NN_model.pb', as_text=False)
 
-
+# plot_learning_curve(NN_model, X_train_nor, y_train, 10)
 
 
 
