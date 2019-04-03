@@ -7,38 +7,9 @@
       <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_NN_model.pbtxt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190322202108/events.out.tfevents.1553286069.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190322202917/events.out.tfevents.1553286557.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323075409/events.out.tfevents.1553327650.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323123633/events.out.tfevents.1553344593.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323123934/events.out.tfevents.1553344775.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323124501/events.out.tfevents.1553345102.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323124856/events.out.tfevents.1553345337.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323210504/events.out.tfevents.1553375105.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190323210725/events.out.tfevents.1553375245.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190324105230/events.out.tfevents.1553424752.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190324105424/events.out.tfevents.1553424865.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190324105514/events.out.tfevents.1553424915.DESKTOP-77H7LR4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_logs/W_Form-20190325064104/events.out.tfevents.1553496065.DESKTOP-77H7LR4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plot_learning_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_learning_curve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312112210/events.out.tfevents.1552389731.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312112740/events.out.tfevents.1552390061.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312113003/events.out.tfevents.1552390204.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312145138/events.out.tfevents.1552402299.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312145831/events.out.tfevents.1552402712.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312150259/events.out.tfevents.1552402980.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312150804/events.out.tfevents.1552403284.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190312170456/events.out.tfevents.1552410297.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314120553/events.out.tfevents.1552565154.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314122614/events.out.tfevents.1552566375.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314123553/events.out.tfevents.1552566954.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314124659/events.out.tfevents.1552567620.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314130223/events.out.tfevents.1552568544.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314131434/events.out.tfevents.1552569275.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190314133239/events.out.tfevents.1552570360.DESKTOP-T99DRN4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_logs/L_Form-20190321195122/events.out.tfevents.1553197883.DESKTOP-77H7LR4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +22,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="146">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#604#1943#0" />
+                <element signature="e#624#1963#0" />
               </folding>
             </state>
           </provider>
@@ -64,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_learning_curve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="476">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -76,8 +47,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L_Form_analyse_NN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="204">
               <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -97,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L_Form_analyse_keras_NN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="323">
               <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -130,16 +104,16 @@
         <option value="$PROJECT_DIR$/Balken_analyse_keras_NN.py" />
         <option value="$PROJECT_DIR$/Balken_analyse_keras_NN_test.py" />
         <option value="D:/Python3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py" />
-        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
         <option value="$PROJECT_DIR$/plot_learning_curve.py" />
         <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" />
+        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="306" />
-    <option name="y" value="123" />
-    <option name="width" value="1172" />
+    <option name="x" value="305" />
+    <option name="y" value="122" />
+    <option name="width" value="1173" />
     <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -165,8 +139,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Software/Git/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,27 +168,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Balken_analyse_keras_NN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Balken_analyse_keras_NN_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SA_FEM_simulation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Balken_analyse_keras_NN_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,20 +239,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="plot_learning_curve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SA_FEM_simulation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_learning_curve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.L_Form_analyse_keras_NN" />
       <item itemvalue="Python.Balken_analyse_keras_NN" />
-      <item itemvalue="Python.Balken_analyse_keras_NN_test" />
       <item itemvalue="Python.W_Form_analyse_keras_NN" />
       <item itemvalue="Python.W_Form_analyse_keras_NN_test" />
+      <item itemvalue="Python.plot_learning_curve" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.W_Form_analyse_keras_NN_test" />
         <item itemvalue="Python.W_Form_analyse_keras_NN" />
+        <item itemvalue="Python.plot_learning_curve" />
         <item itemvalue="Python.L_Form_analyse_keras_NN" />
         <item itemvalue="Python.Balken_analyse_keras_NN" />
-        <item itemvalue="Python.Balken_analyse_keras_NN_test" />
       </list>
     </recent_temporary>
   </component>
@@ -309,11 +283,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22023182" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2186512" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4552929" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50421053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,13 +302,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python3.5/Lib/site-packages/matplotlib/backends/_backend_tk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python3.5/Lib/site-packages/matplotlib/backends/_backend_tk.py" />
     <entry file="file://$PROJECT_DIR$/Balken_analyse_keras_NN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -365,38 +333,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
+    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/framework/op_def_library.py" />
+    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py" />
+    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py" />
+    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/ops/metrics_impl.py" />
+    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="546" selection-start-line="546" selection-end-line="546" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10129" selection-start-line="10129" selection-end-line="10129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="811" selection-start-line="811" selection-end-line="811" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python3.5/Lib/site-packages/tensorflow/python/ops/metrics_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="888" selection-start-line="888" selection-end-line="888" />
+        <state relative-caret-position="146">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#624#1963#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_learning_curve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="476">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -405,7 +360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L_Form_analyse_NN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="204">
           <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -415,7 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L_Form_analyse_keras_NN_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="323">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -423,21 +378,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#604#1943#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
