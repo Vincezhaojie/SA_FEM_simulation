@@ -84,7 +84,7 @@ pickle.dump(scaler, pickle_out)
 pickle_out.close()
 
 
-# model = KerasClassifier(build_fn=create_model, verbose=0, epochs=800)
+# model = KerasClassifier(build_fn=create_model, verbose=0, epochs=50)
 # neurons = [n for n in range(60, 120)]
 # hidden_layers = [1, 2, 3, 4, 5]
 # param_grid = dict(neurons=neurons, hidden_layers=hidden_layers)
@@ -98,7 +98,9 @@ pickle_out.close()
 # for mean, stdev, param in zip(means, stds, params):
 #     print("%f (%f) with: %r" % (mean, stdev, param))
 
-NN_model = create_model(84, 2)
+
+
+NN_model = create_model(99, 5)
 tensorboard = TensorBoard(log_dir=logdir)
 
 NN_model.fit(X_train_nor, y_train, epochs=50, validation_split=0.2, callbacks=[tensorboard])

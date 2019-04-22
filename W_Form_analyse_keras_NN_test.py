@@ -9,26 +9,24 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import pickle
 
-NN_model = load_model('W_Form_NN_modelE.h5')
+NN_model = load_model('W_Form_NN_modelD.h5')
 
-df_test = pd.read_excel('W_Form_partE_as_test.xlsx')
+df_test = pd.read_excel('W_Form_SimulationDaten_test.xlsx')
 
-df_test = df_test[df_test['maxDisp(mm)'] > 15]
-df_test = df_test[df_test['maxDisp(mm)'] <= 50]
+df_test = df_test[df_test['maxDisp(mm)'] > 7]
+df_test = df_test[df_test['maxDisp(mm)'] <= 15]
 df_test = df_test[df_test['maxStress(MPa)'] < 351.6]
 
 
-X_test = df_test.drop(columns=['maxDisp(mm)', 'maxStress(MPa)'])
+X_test = df_test.drop(columns=['maxDisp(mm)', 'maxStress(MPa)', 'class', 'out'])
 y_test = df_test['maxDisp(mm)']
 
 scaler = MinMaxScaler()
-pickle_in = open("W_Form_MinMaxScalerE.pickle", "rb")
+pickle_in = open("W_Form_MinMaxScalerD.pickle", "rb")
 scaler = pickle.load(pickle_in)
 
 X_test_nor = pd.DataFrame(scaler.transform(X_test.values), index=X_test.index, columns=X_test.columns)
-
 predictions = NN_model.predict(X_test_nor)
-
 with tf.Session() as sess:
     mae = tf.keras.metrics.mean_absolute_error(y_test, np.squeeze(predictions)).eval()
     print(mae)
