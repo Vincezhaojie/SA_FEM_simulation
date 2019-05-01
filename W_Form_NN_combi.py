@@ -2,15 +2,10 @@ import tensorflow as tf
 from tensorflow.keras.callbacks import TensorBoard
 import numpy as np
 import pandas as pd
-from tensorflow.keras.models import Sequential, load_model
-from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, BatchNormalization
-from tensorflow.keras.utils import to_categorical
+from tensorflow.python.keras.models import Sequential, load_model
+from tensorflow.python.keras.layers import Dense, Dropout, Activation, Flatten, BatchNormalization
+from tensorflow.python.keras.utils import to_categorical
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.model_selection import GridSearchCV
-from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
-from sklearn.utils import shuffle
-from datetime import datetime
 import pickle
 import matplotlib.pyplot as plt
 

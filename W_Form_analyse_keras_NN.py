@@ -41,19 +41,19 @@ def freeze_session(session, keep_var_names=None, output_names=None, clear_device
         if clear_devices:
             for node in input_graph_def.node:
                 node.device = ''
-        frozen_graph = tf.compat.v1.graph_util.convert_variables_to_constants(
+        frozen_graph = tf.graph_util.convert_variables_to_constants(
             session, input_graph_def, output_names, freeze_var_names)
         return frozen_graph
 
 
 #######################################################################
 n_inputs = 9
-down = 1
-up = 3
-scaler_name = "W_Form_MinMaxScalerB.pickle"
-logdir_name = "W_Form_partB"
-save_model_name_h5 = 'W_Form_NN_modelB.h5'
-save_model_name_pb = 'W_Form_NN_modelB.pb'
+down = 0
+up = 1
+scaler_name = "W_Form_MinMaxScalerA.pickle"
+logdir_name = "W_Form_partA"
+save_model_name_h5 = 'W_Form_NN_modelA.h5'
+save_model_name_pb = 'W_Form_NN_modelA.pb'
 #######################################################################
 
 now = datetime.utcnow().strftime("%Y%m%d%H%M%S")
@@ -67,7 +67,9 @@ df3 = pd.read_excel('W_Form_simulationDaten_1553765909540_clean.xlsx')
 df4 = pd.read_excel('W_Form_simulationDaten_1553902548685_double_clean.xlsx')
 df5 = pd.read_excel('W_Form_big_data_complecated_part1.xlsx')
 df6 = pd.read_excel('W_Form_partE1_inter_completed.xlsx')
-df = pd.concat([df1, df2, df3, df4, df5, df6])
+df7 = pd.read_excel('W_Form_partB_inter_completed.xlsx')
+df8 = pd.read_excel('W_Form_partC_inter_completed.xlsx')
+df = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8])
 
 df = df[df['maxDisp(mm)'] > down]
 df = df[df['maxDisp(mm)'] <= up]
@@ -96,7 +98,8 @@ def create_model(neurons=2, hidden_layers=2, drop=0.5):
     #hidden_layers
     for i in range(hidden_layers):
         model.add(Dense(neurons, kernel_initializer='glorot_uniform', activation='elu'))
-        model.add(Dropout(drop))
+        if i in [hidden_layers-1, hidden_layers-2, hidden_layers-3]:
+            model.add(Dropout(drop))
     #output layer
     model.add(Dense(1, kernel_initializer='glorot_uniform', activation='linear'))
 
@@ -108,7 +111,7 @@ random_search = False
 if random_search is True:
     model = KerasRegressor(build_fn=create_model, verbose=0, epochs=500)
     neurons = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-    drop = [d / 10 for d in range(10)]
+    drop = [d / 10 for d in range(6)]
     hidden_layers = [n for n in range(11)]
     param_grid = dict(neurons=neurons, hidden_layers=hidden_layers, drop=drop)
     grid = RandomizedSearchCV(estimator=model, param_distributions=param_grid, n_jobs=None, n_iter=10)
@@ -121,7 +124,7 @@ if random_search is True:
         print("%f (%f) with: %r" % (mean, stdev, param))
 else:
     tensorboard = TensorBoard(log_dir=logdir)
-    NN_model = create_model(200, 5, 0.3)
+    NN_model = create_model(600, 3, 0.1)
     NN_model.fit(X_train_nor, y_train, epochs=800, validation_split=0.2, callbacks=[tensorboard])
     NN_model.save(save_model_name_h5)
 
