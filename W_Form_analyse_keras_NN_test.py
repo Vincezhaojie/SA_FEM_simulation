@@ -11,25 +11,26 @@ import matplotlib.pyplot as plt
 import pickle
 
 #########################################################
-up = 1
-down = 0
-model_name = 'W_Form_NN_modelA.h5'
-scaler_name = "W_Form_MinMaxScalerA.pickle"
+up = 50
+down = 15
+model_name = 'W_Form_F3=0_NN_modelE.h5'
+scaler_name = "W_Form_F3=0_MinMaxScalerE.pickle"
 #########################################################
 
 
 NN_model = load_model(model_name)
 
-df_test = pd.read_excel('W_Form_SimulationDaten_test.xlsx')
+#df_test = pd.read_excel('W_Form_SimulationDaten_test.xlsx')
 #df_test = pd.read_excel('W_Form_partE_as_test.xlsx')
+df_test = pd.read_excel('W_Form_F3=0_test.xlsx')
 
 df_test = df_test[df_test['maxDisp(mm)'] > down]
 df_test = df_test[df_test['maxDisp(mm)'] <= up]
 df_test = df_test[df_test['maxStress(MPa)'] < 351.6]
 
 
-X_test = df_test.drop(columns=['maxDisp(mm)', 'maxStress(MPa)', 'class', 'out'])
-#X_test = df_test.drop(columns=['maxDisp(mm)', 'maxStress(MPa)'])
+#X_test = df_test.drop(columns=['maxDisp(mm)', 'maxStress(MPa)', 'class', 'out'])
+X_test = df_test.drop(columns=['maxDisp(mm)', 'maxStress(MPa)'])
 y_test = df_test['maxDisp(mm)']
 
 scaler = MinMaxScaler()
@@ -39,18 +40,20 @@ scaler = pickle.load(pickle_in)
 X_test_nor = pd.DataFrame(scaler.transform(X_test.values), index=X_test.index, columns=X_test.columns)
 predictions = NN_model.predict(X_test_nor)
 with tf.Session() as sess:
-    mape = tf.keras.metrics.MAE(y_test.values, np.squeeze(predictions)).eval()
+    mape = tf.keras.metrics.MAPE(y_test.values, np.squeeze(predictions)).eval()
+    mae = tf.keras.metrics.MAE(y_test.values, np.squeeze(predictions)).eval()
     print(mape)
 
-
+tol = round(mae, 2)
 fig = plt.figure(figsize=(9, 8))
 plt.plot(y_test, np.squeeze(predictions), 'o', alpha=0.4)
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], '--', c=(0, 0, 0))
-plt.plot([y_test.min(), y_test.max()], [y_test.min() + 0.1, y_test.max() + 0.1], '--', c=(0, 0, 0))
-plt.plot([y_test.min(), y_test.max()], [y_test.min() - 0.1, y_test.max() - 0.1], '--', c=(0, 0, 0))
+plus = plt.plot([y_test.min(), y_test.max()], [y_test.min() + tol, y_test.max() + tol], '--', c=(0, 0, 0), label="+" + str(tol), color='green')
+minus = plt.plot([y_test.min(), y_test.max()], [y_test.min() - tol, y_test.max() - tol], '--', c=(0, 0, 0), label="-" + str(tol), color='green')
+plt.legend(loc='upper left')
 plt.xlabel('realer Wert')
 plt.ylabel('Vorhersage')
-plt.title('Modellgüte')
+plt.title('Modellgüte    ' + 'MAPE=' + str(round(mape, 2)) + '%')
 plt.show()
 
 

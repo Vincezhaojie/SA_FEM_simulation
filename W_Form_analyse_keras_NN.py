@@ -48,12 +48,12 @@ def freeze_session(session, keep_var_names=None, output_names=None, clear_device
 
 #######################################################################
 n_inputs = 9
-down = 0
-up = 1
-scaler_name = "W_Form_MinMaxScalerA.pickle"
-logdir_name = "W_Form_partA"
-save_model_name_h5 = 'W_Form_NN_modelA.h5'
-save_model_name_pb = 'W_Form_NN_modelA.pb'
+down = 15
+up = 50
+scaler_name = "W_Form_F3=0_MinMaxScalerE.pickle"
+logdir_name = "W_Form_F3=0_E"
+save_model_name_h5 = 'W_Form_F3=0_NN_modelE.h5'
+save_model_name_pb = 'W_Form_F3=0_NN_modelE.pb'
 #######################################################################
 
 now = datetime.utcnow().strftime("%Y%m%d%H%M%S")
@@ -61,15 +61,25 @@ root_logdir = "W_Form_logs"
 logdir = "{}/{}-{}".format(root_logdir, logdir_name, now)
 
 #read data
-df1 = pd.read_excel('W_Form_simulationDaten_1553758068644_clean.xlsx')
-df2 = pd.read_excel('W_Form_simulationDaten_1553765907570_clean.xlsx')
-df3 = pd.read_excel('W_Form_simulationDaten_1553765909540_clean.xlsx')
-df4 = pd.read_excel('W_Form_simulationDaten_1553902548685_double_clean.xlsx')
-df5 = pd.read_excel('W_Form_big_data_complecated_part1.xlsx')
-df6 = pd.read_excel('W_Form_partE1_inter_completed.xlsx')
-df7 = pd.read_excel('W_Form_partB_inter_completed.xlsx')
-df8 = pd.read_excel('W_Form_partC_inter_completed.xlsx')
-df = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8])
+# df1 = pd.read_excel('W_Form_simulationDaten_1553758068644_clean.xlsx')
+# df2 = pd.read_excel('W_Form_simulationDaten_1553765907570_clean.xlsx')
+# df3 = pd.read_excel('W_Form_simulationDaten_1553765909540_clean.xlsx')
+# df4 = pd.read_excel('W_Form_simulationDaten_1553902548685_double_clean.xlsx')
+# df5 = pd.read_excel('W_Form_big_data_complecated_part1.xlsx')
+# df6 = pd.read_excel('W_Form_partE1_inter_completed.xlsx')
+# df7 = pd.read_excel('W_Form_partB_inter_completed.xlsx')
+# df8 = pd.read_excel('W_Form_partC_inter_completed.xlsx')
+# df9 = pd.read_excel('W_Form_partA_inter_completed.xlsx')
+# df10 = pd.read_excel('W_Form_partD_inter_completed.xlsx')
+# df = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8, df9, df10])
+
+df1 = pd.read_excel('W_Form_F3=0_partA_inter_completed.xlsx')
+df2 = pd.read_excel('W_Form_F3=0_partB_inter_completed.xlsx')
+df3 = pd.read_excel('W_Form_F3=0_partC_inter_completed.xlsx')
+df4 = pd.read_excel('W_Form_F3=0_partD_inter_completed.xlsx')
+df5 = pd.read_excel('W_Form_F3=0_partE_inter_completed.xlsx')
+df6 = pd.read_excel('W_Form_simulationDaten_1557412985093_F3=0.xlsx')
+df = pd.concat([df1, df2, df3, df4, df5, df6])
 
 df = df[df['maxDisp(mm)'] > down]
 df = df[df['maxDisp(mm)'] <= up]
@@ -100,10 +110,11 @@ def create_model(neurons=2, hidden_layers=2, drop=0.5):
         model.add(Dense(neurons, kernel_initializer='glorot_uniform', activation='elu'))
         if i in [hidden_layers-1, hidden_layers-2, hidden_layers-3]:
             model.add(Dropout(drop))
+
     #output layer
     model.add(Dense(1, kernel_initializer='glorot_uniform', activation='linear'))
 
-    model.compile(loss=losses.mean_absolute_percentage_error, optimizer='adam', metrics=[losses.mean_absolute_percentage_error])
+    model.compile(loss=losses.MAPE, optimizer='adam', metrics=[losses.mean_absolute_percentage_error])
     return model
 
 random_search = False
@@ -111,10 +122,10 @@ random_search = False
 if random_search is True:
     model = KerasRegressor(build_fn=create_model, verbose=0, epochs=500)
     neurons = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-    drop = [d / 10 for d in range(6)]
+    drop = [d / 10 for d in range(1, 6)]
     hidden_layers = [n for n in range(11)]
     param_grid = dict(neurons=neurons, hidden_layers=hidden_layers, drop=drop)
-    grid = RandomizedSearchCV(estimator=model, param_distributions=param_grid, n_jobs=None, n_iter=10)
+    grid = RandomizedSearchCV(estimator=model, param_distributions=param_grid, n_jobs=None, n_iter=10, cv=3)
     grid_result = grid.fit(X_train_nor, y_train)
     print("Best: %f using %s" % (grid_result.best_score_, grid_result.best_params_))
     means = grid_result.cv_results_['mean_test_score']
@@ -124,8 +135,8 @@ if random_search is True:
         print("%f (%f) with: %r" % (mean, stdev, param))
 else:
     tensorboard = TensorBoard(log_dir=logdir)
-    NN_model = create_model(600, 3, 0.1)
-    NN_model.fit(X_train_nor, y_train, epochs=800, validation_split=0.2, callbacks=[tensorboard])
+    NN_model = create_model(700, 2, 0.1)
+    NN_model.fit(X_train_nor, y_train, epochs=1500, validation_split=0.2, callbacks=[tensorboard])
     NN_model.save(save_model_name_h5)
 
     frozen_graph = freeze_session(tf.keras.backend.get_session(), output_names=[out.op.name for out in NN_model.outputs])

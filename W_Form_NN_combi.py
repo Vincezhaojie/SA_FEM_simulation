@@ -51,8 +51,10 @@ W_Form_MinMaxScalerE = pickle.load(pickle_in)
 n_inputs = 9
 
 #read data
-df = pd.read_excel('W_Form_simulationDaten_test.xlsx')
-X = df.drop(columns=['maxDisp(mm)', 'maxStress(MPa)', 'class', 'out'])
+#df = pd.read_excel('W_Form_simulationDaten_test.xlsx')
+#X = df.drop(columns=['maxDisp(mm)', 'maxStress(MPa)', 'class', 'out'])
+df = pd.read_excel('W_Form_simulationDaten_1557412985093_F3=0.xlsx')
+X = df.drop(columns=['maxDisp(mm)', 'maxStress(MPa)'])
 y = df['maxDisp(mm)']
 print(len(df))
 
@@ -105,9 +107,11 @@ X_4 = pd.DataFrame(X_4_val, columns=X.columns)
 
 #3, regression
 #model A
+y_pre = []
 X_0_nor = pd.DataFrame(W_Form_MinMaxScalerA.transform(X_0.values), index=X_0.index, columns=X_0.columns)
 predictions = W_Form_NN_modelA.predict(X_0_nor)
 y_min = min(y_0_val)
+y_pre.extend(np.squeeze(predictions))
 
 fig = plt.figure(figsize=(9, 8))
 plt.plot(y_0_val, np.squeeze(predictions), 'o', alpha=0.4)
@@ -118,23 +122,35 @@ plt.title('Modellgüte')
 #model B
 X_1_nor = pd.DataFrame(W_Form_MinMaxScalerB.transform(X_1.values), index=X_1.index, columns=X_1.columns)
 predictions = W_Form_NN_modelB.predict(X_1_nor)
+y_pre.extend(np.squeeze(predictions))
 plt.plot(y_1_val, np.squeeze(predictions), 'o', alpha=0.4)
 
 #model C
 X_2_nor = pd.DataFrame(W_Form_MinMaxScalerC.transform(X_2.values), index=X_2.index, columns=X_2.columns)
 predictions = W_Form_NN_modelC.predict(X_2_nor)
+y_pre.extend(np.squeeze(predictions))
 plt.plot(y_2_val, np.squeeze(predictions), 'o', alpha=0.4)
 
 #model D
 X_3_nor = pd.DataFrame(W_Form_MinMaxScalerD.transform(X_3.values), index=X_3.index, columns=X_3.columns)
 predictions = W_Form_NN_modelD.predict(X_3_nor)
+y_pre.extend(np.squeeze(predictions))
 plt.plot(y_3_val, np.squeeze(predictions), 'o', alpha=0.4)
 
 #model E
 X_4_nor = pd.DataFrame(W_Form_MinMaxScalerE.transform(X_4.values), index=X_4.index, columns=X_4.columns)
 predictions = W_Form_NN_modelE.predict(X_4_nor)
+y_pre.extend(predictions)
 plt.plot(y_4_val, np.squeeze(predictions), 'o', alpha=0.4)
 y_max = max(y_4_val)
+
+y = []
+for y_val in [y_0_val, y_1_val, y_2_val, y_3_val, y_4_val]:
+    y.extend(y_val)
+
+with tf.Session() as sess:
+    mape = tf.keras.metrics.MAPE(np.asarray(y), np.asarray(y_pre)).eval()
+    print(mape)
 
 plt.plot([1, 1], [0, y_max], '--', c=(0, 0, 0))
 plt.plot([3, 3], [0, y_max], '--', c=(0, 0, 0))

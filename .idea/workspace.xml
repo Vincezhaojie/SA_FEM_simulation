@@ -4,31 +4,21 @@
     <list default="true" id="04cb4153-c196-47e3-b241-03bf3e166a09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScaler.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScalerA.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScalerA.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScalerB.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScalerB.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScalerC.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScalerC.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScalerD.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScalerD.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_MinMaxScalerE.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_MinMaxScalerE.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_combi.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_combi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_NN_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W_Form_NN_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_model.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_modelA.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelA.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_modelA.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelA.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_NN_modelB.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelB.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_NN_modelC.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelC.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_NN_modelC.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelC.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_modelD.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelD.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_modelD.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelD.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_modelE.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelE.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_NN_modelE.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_NN_modelE.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_class_MinMaxScaler.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_class_MinMaxScaler.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_class_classifier.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_class_classifier.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_class_classifier.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_class_classifier.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_class_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_class_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_yieled_MinMaxScaler.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_yieled_MinMaxScaler.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_yieled_classifier.h5" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_yieled_classifier.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_yieled_classifier.pb" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_yieled_classifier.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W_Form_yieled_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/W_Form_yieled_classifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
+            <state relative-caret-position="282">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#865#2194#0" />
@@ -54,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="266">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -66,11 +56,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_yieled_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="205">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#708#2047#0" />
               </folding>
             </state>
           </provider>
@@ -79,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_yieled_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="152">
               <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -91,11 +80,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_class_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="1805">
               <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <element signature="e#708#2047#0" />
               </folding>
             </state>
           </provider>
@@ -104,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_class_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="437">
               <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -113,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/W_Form_NN_combi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="798">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -128,8 +116,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tf-gpu-test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="399">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,19 +152,20 @@
         <option value="$PROJECT_DIR$/plot_learning_curve.py" />
         <option value="$PROJECT_DIR$/W_Form_yieled_test.py" />
         <option value="$PROJECT_DIR$/W_Form_class_test.py" />
-        <option value="$PROJECT_DIR$/tf-gpu-test.py" />
         <option value="$PROJECT_DIR$/W_Form_yieled_classifier.py" />
         <option value="$PROJECT_DIR$/W_Form_class_classifier.py" />
         <option value="$PROJECT_DIR$/W_Form_NN_combi.py" />
-        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" />
         <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py" />
+        <option value="$PROJECT_DIR$/W_Form_analyse_keras_NN.py" />
+        <option value="$PROJECT_DIR$/tf-gpu-test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="2126" />
+    <option name="y" value="27" />
+    <option name="width" value="978" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -213,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.W_Form_NN_combi">
+  <component name="RunManager" selected="Python.tf-gpu-test">
     <configuration name="W_Form_NN_combi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SA_FEM_simulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,7 +311,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="W_Form_yieled_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf-gpu-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SA_FEM_simulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,7 +323,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/W_Form_yieled_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf-gpu-test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,18 +335,18 @@
     <list>
       <item itemvalue="Python.W_Form_analyse_keras_NN_test" />
       <item itemvalue="Python.W_Form_NN_combi" />
-      <item itemvalue="Python.W_Form_yieled_test" />
       <item itemvalue="Python.W_Form_class_classifier" />
       <item itemvalue="Python.W_Form_class_test" />
       <item itemvalue="Python.W_Form_analyse_keras_NN" />
+      <item itemvalue="Python.tf-gpu-test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.W_Form_NN_combi" />
+        <item itemvalue="Python.tf-gpu-test" />
         <item itemvalue="Python.W_Form_analyse_keras_NN" />
+        <item itemvalue="Python.W_Form_NN_combi" />
         <item itemvalue="Python.W_Form_class_test" />
         <item itemvalue="Python.W_Form_class_classifier" />
-        <item itemvalue="Python.W_Form_yieled_test" />
       </list>
     </recent_temporary>
   </component>
@@ -362,14 +354,14 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1913" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21812434" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32496697" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47916666" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2311828" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39895833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,59 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tf-gpu-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/W_Form_yieled_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#708#2047#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_yieled_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="152">
           <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/W_Form_class_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#865#2194#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -510,21 +453,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_class_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="1805">
           <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#708#2047#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W_Form_class_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/W_Form_NN_combi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="798">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf-gpu-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W_Form_yieled_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/W_Form_analyse_keras_NN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#865#2194#0" />
           </folding>
         </state>
       </provider>

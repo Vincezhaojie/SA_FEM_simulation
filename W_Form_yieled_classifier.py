@@ -15,12 +15,13 @@ from datetime import datetime
 import pickle
 
 ######################################
-logdir_name = 'W_Form_yieled'
-save_model_name_h5 = 'W_Form_yieled_classifier.h5'
-save_model_name_pb = 'W_Form_yieled_classifier.pb'
+logdir_name = 'W_Form_F3=0_yieled'
+save_model_name_h5 = 'W_Form_F3=0_yieled_classifier.h5'
+save_model_name_pb = 'W_Form_F3=0_yieled_classifier.pb'
+scaler_name = "W_Form_F3=0_yield_MinMaxScalerE.pickle"
 n_inputs = 9
 num_classes = 2
-
+######################################
 
 
 #help function
@@ -77,7 +78,7 @@ logdir = "{}/{}-{}".format(root_logdir, logdir_name, now)
 
 
 #read data
-df = pd.read_excel('W_Form_Daten_withClass.xlsx')
+df = pd.read_excel('W_Form_F3=0_withClass.xlsx')
 df = shuffle(df)
 print(len(df))
 
@@ -88,17 +89,18 @@ scaler = MinMaxScaler()  # or MaxAbsScaler(), MinMaxScaler()
 X_train_nor = pd.DataFrame(scaler.fit_transform(X_train.values), index=X_train.index, columns=X_train.columns)
 
 #save the scaler, prepare to Test
-pickle_out = open("W_Form_yieled_MinMaxScaler.pickle", "wb")
+pickle_out = open(scaler_name, "wb")
 pickle.dump(scaler, pickle_out)
 pickle_out.close()
 
-random_search = False
+random_search = True
 
 if random_search == True:
     model = KerasClassifier(build_fn=create_model, verbose=0, epochs=100)
     neurons = [n for n in range(10, 500)]
     hidden_layers = [1, 2, 3, 4, 5]
-    param_grid = dict(neurons=neurons, hidden_layers=hidden_layers)
+    drop = [d / 10 for d in range(1, 6)]
+    param_grid = dict(neurons=neurons, hidden_layers=hidden_layers, drop=drop)
     grid = RandomizedSearchCV(estimator=model, param_distributions=param_grid, n_jobs=None, n_iter=10)
     grid_result = grid.fit(X_train_nor, y_train)
 
